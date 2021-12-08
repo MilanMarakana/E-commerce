@@ -1,5 +1,18 @@
 {
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxBracketSameLine": true,
+  "editor.autoClosingDelete": "never",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "json.format.enable": false,
+  "cSpell.words": [
+    "firestore"
+  ]
 }
