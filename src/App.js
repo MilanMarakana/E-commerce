@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import './App.css';
@@ -9,7 +9,6 @@ import Shop from './pages/shop/shop';
 import SignInAndSignUp from './pages/signin-and-signup/signin-and-signup';
 import Header from './components/header/header';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
-import SignIn from './components/sing-in/sign-in';
 import { setCurrentUser } from './redux/user/user-action.jsx';
 
 // const Hats = (props) => {
@@ -56,6 +55,10 @@ class App extends React.Component {
     this.unsubscribeFromAuth();
   }
 
+  // RedirectToHome = () => {
+  //   return
+  // };
+
   render() {
     return (
       <div>
@@ -63,13 +66,27 @@ class App extends React.Component {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/shop' element={<Shop />} />
-          <Route path='/contact' element={<SignInAndSignUp />} />
-          <Route path='/sign-in' element={<SignIn />} />
+          <Route
+            path='/sign-in'
+            element={
+              this.props.currentUser ? (
+                <Navigate to='/' replace={true} />
+              ) : (
+                <SignInAndSignUp />
+              )
+            }
+          />
         </Routes>
       </div>
     );
   }
 }
+
+const mapStateToProps = ({ user }) => {
+  return {
+    currentUser: user.currentUser,
+  };
+};
 
 const mapDispatchToProps = (dispatch) => {
   return {
@@ -79,4 +96,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(null, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
