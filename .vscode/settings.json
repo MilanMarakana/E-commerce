@@ -17,5 +17,6 @@
     "firestore",
     "signin"
   ],
-  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+  "template-string-converter.quoteType": "single"
 }
