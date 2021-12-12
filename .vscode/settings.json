@@ -13,6 +13,8 @@
   "editor.formatOnPaste": true,
   "json.format.enable": false,
   "cSpell.words": [
-    "firestore"
-  ]
+    "firestore",
+    "signin"
+  ],
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true
 }
