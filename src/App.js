@@ -42,17 +42,13 @@ class App extends React.Component {
     this.unsubscribeFromAuth();
   }
 
-  // RedirectToHome = () => {
-  //   return
-  // };
-
   render() {
     return (
       <div>
         <Header />
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/shop' element={<Shop />} />
+          <Route path='shop/*' element={<Shop />} />
           <Route path='/checkout' element={<CheckoutPage />} />
           <Route
             path='/sign-in'

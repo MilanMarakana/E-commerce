@@ -7,7 +7,6 @@ import './collection-item.scss';
 
 const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
-
   return (
     <div className='collection-item'>
       <div
@@ -27,12 +26,10 @@ const CollectionItem = ({ item, addItem }) => {
   );
 };
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    addItem: (item) => {
-      dispatch(addItem(item));
-    },
-  };
-};
+const mapDispatchToProps = (dispatch) => ({
+  addItem: (item) => {
+    dispatch(addItem(item));
+  },
+});
 
 export default connect(null, mapDispatchToProps)(CollectionItem);

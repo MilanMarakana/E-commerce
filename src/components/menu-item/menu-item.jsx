@@ -5,7 +5,6 @@ import './menu-item.scss';
 
 const MenuItem = ({title, imageUrl, size, linkUrl}) => {
   const navigation = useNavigate();
-  // const match = useMatch();
   return (
     <div
       className={`${size} menu-item`}
