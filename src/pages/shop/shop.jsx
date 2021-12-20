@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import {
   convertCollectionsSnapshotToMap,
   firestore,
@@ -25,12 +25,14 @@ class Shop extends React.Component {
   }
 
   render() {
+    const { match } = this.props;
     return (
       <div className='shop-page'>
-        <Routes>
-          <Route path='/' element={<CollectionsOverview />} />
-          <Route path=':collectionId' element={<CollectionPage />} />
-        </Routes>
+        <Route exact path={`${match.path}`} component={CollectionsOverview} />
+        <Route
+          path={`${match.path}/:collectionId`}
+          component={CollectionPage}
+        />
       </div>
     );
   }
