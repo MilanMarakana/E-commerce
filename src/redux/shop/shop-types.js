@@ -1,5 +1,13 @@
-const shopActionType = {
-  UPDATE_COLLECTIONS: 'UPDATE_COLLECTIONS',
+// const shopActionType = {
+//   UPDATE_COLLECTIONS: 'UPDATE_COLLECTIONS',
+// };
+
+// export default shopActionType;
+
+const ShopActionTypes = {
+  FETCH_COLLECTIONS_START: 'FETCH_COLLECTIONS_START',
+  FETCH_COLLECTIONS_SUCCESS: 'FETCH_COLLECTIONS_SUCCESS',
+  FETCH_COLLECTIONS_FAILURE: 'FETCH_COLLECTIONS_FAILURE',
 };
 
-export default shopActionType;
+export default ShopActionTypes;

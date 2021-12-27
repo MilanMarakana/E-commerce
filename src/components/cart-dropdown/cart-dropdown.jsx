@@ -9,7 +9,7 @@ import './cart-dropdown.scss';
 
 import { selectCartItems } from './../../redux/cart/cart-selectors';
 import { createStructuredSelector } from 'reselect';
-import { toggleCartHidden } from './../../redux/cart/cart-action';
+import { toggleCartHidden } from '../../redux/cart/cart-actions';
 
 const CartDropDown = ({ cartItems, history, dispatch }) => {
   return (

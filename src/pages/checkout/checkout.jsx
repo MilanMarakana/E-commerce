@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import './checkout.scss';
 
-import CheckoutItem from './../../components/checkout-item/checkout-item';
+import CheckoutItem from '../../components/checkout-item/checkout-item';
 
 import { createStructuredSelector } from 'reselect';
 import {

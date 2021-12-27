@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addItem } from '../../redux/cart/cart-action.js';
+import { addItem } from '../../redux/cart/cart-actions.js';
 import CustomButton from '../custom-button/custom-button.jsx';
 
 import './collection-item.scss';
