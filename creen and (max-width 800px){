@@ -1,0 +1,179 @@
+[33mcommit ae0f0d99de9b714d28c6cb36fec747ff735c5b27[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Fri Dec 31 00:19:15 2021 +0100
+
+    Stopped tracking .env File
+
+[33mcommit 5a7dcbb0a1fb98016dc74ff09108dbbb387c1aea[m
+Author: MilanALearner <34717507+MilanMarakana@users.noreply.github.com>
+Date:   Fri Dec 31 00:10:53 2021 +0100
+
+    Update .env
+
+[33mcommit ca524578ecfbd46a4f5a0209d07d85831fa160ef[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Thu Dec 30 23:14:16 2021 +0100
+
+    implemented a server for stripe API using node and express lib
+
+[33mcommit c5bb4fd6d6031e29a3cbbb40c02ea048a93e28fe[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Tue Dec 28 02:27:12 2021 +0100
+
+    implemented redux hooks and react-router-dom hooks
+
+[33mcommit 1fdeb21bb4e749673e9587b8b3bc9454f1bd64a9[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Mon Dec 27 23:35:12 2021 +0100
+
+    use hooks for App, sign-in and sign-up components
+
+[33mcommit ffcddc59a06bf59a0e51ccfcc71d598bc8f9463a[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Mon Dec 27 22:32:12 2021 +0100
+
+    updated with redux saga and added container architecture
+
+[33mcommit 6ea2c51cb6ac064b5b86f4778f21963bd42f9c47[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Mon Dec 20 23:36:37 2021 +0100
+
+    Add HOC of spinner for shop and shop individually route
+
+[33mcommit 4803581017b5a30f473f76a246a1e818a5955979[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Mon Dec 20 22:01:03 2021 +0100
+
+    resolved bugs in collection page for redirect the page of category
+
+[33mcommit 7343fc6be59caeafb34ed547e61aa574c6e20029[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 19 22:36:09 2021 +0100
+
+    move shop data to the firebase and fetch from there into the app
+
+[33mcommit c35ba751b9a4059f9b87fa623bdc94e2e9be7696[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 19 16:46:20 2021 +0100
+
+    updated with stripe payment gateway and update the app favicon
+
+[33mcommit bcc64c9ade1dea0a699f16f2ef6e983500085697[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 19 16:10:45 2021 +0100
+
+    maintain app data flow and added nested routing in app for individualiy category. data normalization from array to object.
+
+[33mcommit fc066f17a0989f8c501e108ccd5dfa9ae63d5199[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Tue Dec 14 23:58:55 2021 +0100
+
+    added add and remove item functionality to the checkout page
+
+[33mcommit 78501b732220a6d1f17b0fd9f0ec75ea87c2cbac[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Tue Dec 14 01:02:08 2021 +0100
+
+    updated remove item functionality in checkout-item component
+
+[33mcommit 015d150f79e1d01bfd08fa4dfa6f36543027aef7[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Tue Dec 14 00:43:04 2021 +0100
+
+    added checkout page and checkout-item component and update cart for use reselect from reselect
+
+[33mcommit ab73320088676324a3c1d5ed112151d0679ec790[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 12 23:59:09 2021 +0100
+
+    updating our app with reselect, replaced cart selectors with memoized selectors
+
+[33mcommit 8b31aa70914fc9b07a3510abcf6b0b3aa831febf[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 12 23:23:21 2021 +0100
+
+    added cart-item component and connect with cart reducer
+
+[33mcommit 2e51d4d972baece731490e0c6f0ebcdc04d070a4[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 12 23:01:52 2021 +0100
+
+    updated shop data with new id and added functionality that add items into cart with multiple quantities
+
+[33mcommit 6bb36a203198d54d262702a7dd70ff2c93d16e29[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 12 20:42:36 2021 +0100
+
+    added cart-icon and card-dropdown component and also implemented carrReducer
+
+[33mcommit 982da37f45a97f34e3f7bf6dbbb5be5c58244ae0[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 12 16:58:11 2021 +0100
+
+    updated minor changes
+
+[33mcommit c0fd3be69b9691f4be8e9fb1efd2f77f25f42ecb[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 12 16:30:52 2021 +0100
+
+    updated the app component with the redirect functionality if user is already sign in
+
+[33mcommit 9a766d85c0980f15a1d2a3abb23ad4ad345fca14[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 12 15:36:20 2021 +0100
+
+    added redux and implemented userReducer and userAction to the header and app components
+
+[33mcommit 3dcd9d1437420f4e3cc5c8728fdeec54f400d82e[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 12 02:08:06 2021 +0100
+
+    completed signin and signup components with firebase
+
+[33mcommit bbd3eeb0909ac8d5d68a650d46f23ecf0a4ef0a1[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Fri Dec 10 21:42:56 2021 +0100
+
+    updated with sign in component and sign-in with google
+
+[33mcommit 9de382273b634e0ce4c0d0ec46d73d7090514c72[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Thu Dec 9 00:25:27 2021 +0100
+
+    completed signin style and added firebase
+
+[33mcommit 45e20c1519e0dd879df1aefccfe472ae47f0b276[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Mon Dec 6 23:32:12 2021 +0100
+
+    added Shop and Collection component
+
+[33mcommit 94a81c490f840ccba0d23a8e8fa31075c1764efa[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Mon Dec 6 21:54:20 2021 +0100
+
+    added react-router-dom v6 to the project
+
+[33mcommit ddc940ae1b947b1dd0b1ce1c08b483d2226dad5d[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Sun Dec 5 01:29:08 2021 +0100
+
+    added menu-item and directory components, project structure
+
+[33mcommit a31792d5ee933569fae7e6ac8c953d439ac2d96f[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Wed Dec 1 23:39:44 2021 +0100
+
+    added homepage in the project
+
+[33mcommit ed0ee1796cacd734b09cdff3e82922d2717b9bbd[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Wed Dec 1 22:02:00 2021 +0100
+
+    initialization of project
+
+[33mcommit fb1ddf43a07b3db8e6bb361eeb364584d9307000[m
+Author: MilanMarakana <milan.marakana7@gmail.com>
+Date:   Wed Dec 1 21:41:50 2021 +0100
+
+    Initialize project using Create React App
